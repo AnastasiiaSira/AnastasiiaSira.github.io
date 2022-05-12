@@ -1,8 +1,8 @@
 div.container{
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     /* grid-template-columns: 0.2fr 0.8fr; */
-    grid-template-rows: 1fr;
+    /* grid-template-rows: 1fr; */
 }
 
 img{
@@ -52,12 +52,11 @@ ul.resumeList{
     font-style: italic;
 };
 
-@media(width: 576px){
+@media(min-width: 576px){
     div.container{
-        height: 100vh;
         display: grid;
-        grid-template-columns: 0.2fr 0.8fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 0.2fr 0.8fr !important;
+        grid-template-rows: 1fr !important;
     };
     
     .Descr{
