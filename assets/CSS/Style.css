@@ -1,0 +1,66 @@
+div.container{
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: 0.2fr 0.8fr; */
+    grid-template-rows: 1fr;
+}
+
+img{
+    width: 250px;
+    /* height: 250px; */
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#study{
+
+    font-size: 2.5rem;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 20px;
+};
+
+/* span.studyRad{
+    border-radius: 200%;
+    border: 1px solid black;
+     padding: 1.5rem 0 1rem 2rem; 
+    padding: 15px 0 5px 0
+} */
+
+.banners{
+    font-size: 2rem;
+    font-weight: bold;
+};
+
+ul.resumeList{
+    /* list-style: none; */
+    margin-left: 60px;
+    
+    border-left: 2px solid #40424a;
+};
+
+.liList{
+    padding-top: 2rem;
+};
+
+.Descr{
+    margin-left: -5rem;
+};
+
+.nameOf{
+    color: orange;
+    font-style: italic;
+};
+
+@media(width: 576px){
+    div.container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 0.2fr 0.8fr;
+        grid-template-rows: 1fr;
+    };
+    
+    .Descr{
+        margin-left: -5rem;
+    };
+}
