@@ -1,3 +1,9 @@
+:root {
+    --main-color: orange;
+    --table-color: black;
+  }
+
+
 div.container{
     min-height: 100vh;
     display: grid;
@@ -18,7 +24,7 @@ img{
     height: 3rem;
     width: 3rem;
     margin-left: 20px;
-};
+}
 
 /* span.studyRad{
     border-radius: 200%;
@@ -30,39 +36,39 @@ img{
 .banners{
     font-size: 2rem;
     font-weight: bold;
-};
+}
 
 ul.resumeList{
     /* list-style: none; */
     margin-left: 60px;
-    border-left: 5px solid #03050c;
-};
+    border-left: 2px solid var(--table-color);
+}
 
 .liList{
     padding-top: 2rem;
-};
+}
 
 .Descr{
-    margin-right: 2rem !important;
-};
+    margin-right: 2rem;
+}
 
 .nameOf{
-    color: orange;
+    color: var(--main-color);
     font-style: italic;
-};
+}
 
 
 @media(min-width:600px){
-    div.container{
+    /* div.container{
         display: grid;
-        grid-template-columns: 0.2fr 0.8fr !important;
-        grid-template-rows: 1fr !important;
-    };
+        grid-template-columns: 0.2fr 0.8fr;
+        grid-template-rows: 1fr;
+    } */
     
     .Descr{
-        margin-left: -5rem !important;
-        padding-right: 2rem !important;
-    };
+        margin-left: -5rem;
+        padding-right: 2rem;
+    }
 
     
 }
