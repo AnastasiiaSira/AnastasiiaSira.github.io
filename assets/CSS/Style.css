@@ -1,22 +1,18 @@
 :root {
-    --main-color: rgb(252, 8, 8);
+    --main-color: rgba(253, 0, 177, 0.5);
     --table-color: black;
+    --left-text-color: rgb(255, 255, 255);
   }
 
 
 div.container{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: grid;
-    grid-template-columns: 0.2fr 0.8fr;
+    grid-template-columns: 0.25fr 0.75fr;
     grid-template-rows: 1fr; 
 }
 
-img{
-    width: 250px;
-    /* height: 250px; */
-    border: 1px solid white;
-    border-radius: 200%;
-}
+/* -----------------------Правая сторона --------------------------------------- */
 
 .iconsTerm{
 
@@ -58,7 +54,19 @@ ul.resumeList{
     font-style: italic;
 }
 
+/* -----------------------Левая сторона --------------------------------------- */
 
+div.leftSide{
+    background-color: var(--main-color);
+    color: var(--left-text-color);
+}
+
+img{
+    width: 250px;
+    /* height: 250px; */
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 200%;
+}
 
 
 
