@@ -71,7 +71,7 @@ img{
 .leftDescr{
     font-size: 1.4rem;
     font-weight: 350;
-    margin-top: -1rem;
+    margin-top: -0.9rem;
     padding-right: 1rem;
 }
 
@@ -79,7 +79,33 @@ div  a{
     color: var(--left-text-color);
 }
 
+.lang{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
+.stars{
+    font-size: 0.8rem;
+    margin: 0rem 1rem 0 1rem;
+}
+
+#uaLang{
+    margin-left: 1.05rem;
+}
+
+#rusLang{
+    margin-left: 1.6rem;
+}
+
+#engLang{
+    margin-left: 1.07rem;
+}
+
+#gerLang{
+    margin-left: 1.71rem;
+
+}
 
 
 @media(min-width: 1200px){
