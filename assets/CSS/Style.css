@@ -68,6 +68,17 @@ img{
     border-radius: 200%;
 }
 
+.leftDescr{
+    font-size: 1.4rem;
+    font-weight: 350;
+    margin-top: -1rem;
+    padding-right: 1rem;
+}
+
+div  a{
+    color: var(--left-text-color);
+}
+
 
 
 
